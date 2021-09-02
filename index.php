@@ -28,21 +28,21 @@
         ?>
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <!--<ol class="carousel-indicators">
-<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-</ol>-->
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li><!--
+<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>-->
+            </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="Imagens/Carousel-Top/banner1.webp" class="d-block w-100" alt="...">
                 </div>
-                <!--<div class="carousel-item">
-<img src="Imagens/Carousel-Top/banner2.webp" class="d-block w-100" alt="...">
-</div>
-<div class="carousel-item">
-<img src="Imagens/Carousel-Top/banner3.webp" class="d-block w-100" alt="...">
-</div>-->
+                <div class="carousel-item">
+                    <img src="Imagens/Carousel-Top/banner2.webp" class="d-block w-100" alt="...">
+                </div><!--
+                <div class="carousel-item">
+                    <img src="Imagens/Carousel-Top/banner3.webp" class="d-block w-100" alt="...">
+                </div>-->
             </div>
         </div>
 
@@ -80,20 +80,20 @@
         include 'php/produtos.html';
         ?>
         <!--<div class="infos">
-            <div class="row pedreira">
-                <div class="col-12 col-sm-5 align-self-center texts">
-                    <h1>Pedreira</h1>
-                    <p class="text-justify" >Maecenas non dolor tincidunt, iaculis diam et, fringilla quam. Aliquam erat volutpat. In vitae ligula ornare, auctor massa sed, tempus orci. Ut ullamcorper ex sit amet nisl congue, eu vulputate sapien faucibus.</p>
-                    <button class="button-before">Saiba mais...</button>
-                </div>
-                <div class="col-12 col-sm-7 d-flex justify-content-end">
-                    <a href="Imagens/Infos/image-pedreira-grande.webp" data-lightbox="mygalleryPedreira" data-title="Indústria"><img src="Imagens/Infos/image-pedreira.webp"></a>
-                </div>
-                <div class="col-12 align-self-center button-after">
-                    <button>Saiba mais...</button>
-                </div>
-            </div>
-        </div>-->
+<div class="row pedreira">
+<div class="col-12 col-sm-5 align-self-center texts">
+<h1>Pedreira</h1>
+<p class="text-justify" >Maecenas non dolor tincidunt, iaculis diam et, fringilla quam. Aliquam erat volutpat. In vitae ligula ornare, auctor massa sed, tempus orci. Ut ullamcorper ex sit amet nisl congue, eu vulputate sapien faucibus.</p>
+<button class="button-before">Saiba mais...</button>
+</div>
+<div class="col-12 col-sm-7 d-flex justify-content-end">
+<a href="Imagens/Infos/image-pedreira-grande.webp" data-lightbox="mygalleryPedreira" data-title="Indústria"><img src="Imagens/Infos/image-pedreira.webp"></a>
+</div>
+<div class="col-12 align-self-center button-after">
+<button>Saiba mais...</button>
+</div>
+</div>
+</div>-->
         <div class="pedreira">
             <h1>Pedreira</h1>
             <div class="box">
