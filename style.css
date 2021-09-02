@@ -265,7 +265,7 @@ header ul li{
     width: 100%;
     padding: 25px 0;
     margin: 0;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-around;
     height: 420px;
@@ -309,6 +309,7 @@ header ul li{
 
 .maps{
     height: 350px;
+    margin-bottom: 30px;
 }
 
 .maps iframe{
