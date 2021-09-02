@@ -19,7 +19,7 @@
     </head>
     <body>
         <?php 
-            include 'php/headernav.html';
+        include 'php/headernav.html';
         ?>
         <div class="page-sobre-industria text-center" id="page-industria">
             <div class="container">
@@ -34,11 +34,12 @@
             <img src="Imagens/Infos/banner-pedreira.webp">
         </div>
         <?php 
-            include 'php/faleconosco.html';
-            include 'php/footer.html';
+        include 'php/maps.html';
+        include 'php/faleconosco.html';
+        include 'php/footer.html';
         ?>
 
         <script type="text/javascript" src="main.js"></script>
-        
+
     </body>
 </html>

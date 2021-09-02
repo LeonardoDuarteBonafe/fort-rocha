@@ -18,7 +18,7 @@
     </head>
     <body>
         <?php 
-            include 'php/headernav.html';
+        include 'php/headernav.html';
         ?>
         <div class="container form">
             <div class="row justify-content-between">
@@ -58,7 +58,8 @@
         </div>
 
         <?php 
-            include 'php/footer.html';
+        include 'php/maps.html';
+        include 'php/footer.html';
         ?>
 
         <script src="https://smtpjs.com/v3/smtp.js"></script>

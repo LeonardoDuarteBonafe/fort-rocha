@@ -176,8 +176,8 @@ window.addEventListener("DOMContentLoaded", function () {
     var menuBarHeight = $('#header').height();
 
     var buttonFortRocha = document.querySelectorAll('.fort-rocha button');
-    var buttonIndustria = document.querySelectorAll('.industria button');
-    var buttonPedreira = document.querySelectorAll('.pedreira button');
+    var buttonIndustria = document.querySelectorAll('.industria button');/*
+    var buttonPedreira = document.querySelectorAll('.pedreira button');*/
 
     buttonFortRocha.forEach(button => button.addEventListener('click', function(){
         window.location.href = "sobre-fort-rocha.php";
@@ -187,9 +187,9 @@ window.addEventListener("DOMContentLoaded", function () {
         window.location.href = "industria.php";
     }));
     
-    buttonPedreira.forEach(button => button.addEventListener('click', function(){
+    /*buttonPedreira.forEach(button => button.addEventListener('click', function(){
         window.location.href = "pedreira.php";
-    }));
+    }));*/
 
     if(location.href.split('/').pop()  === "fale-conosco.php"){
         const buttonSendForm = document.querySelector('.submitForm');

@@ -44,6 +44,7 @@
         </div>
 
         <?php 
+        include 'php/maps.html';
         include 'php/faleconosco.html';
         include 'php/footer.html';
         ?>

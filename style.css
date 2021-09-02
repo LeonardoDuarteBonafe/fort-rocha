@@ -183,7 +183,7 @@ header ul li{
 
 .infos a{
     width: 80%;
-    background-color: aqua;
+    /background-color: aqua;
     overflow: hidden;
 }
 
@@ -259,6 +259,60 @@ header ul li{
     height: 10px;
     background-color: #075E8E;
     margin: 35px auto 15px auto;
+}
+
+.pedreira{
+    width: 100%;
+    padding: 25px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 420px;
+    flex-wrap: wrap;
+    background-color: #F1F2F2;
+}
+
+.pedreira h1{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pedreira .box{
+    width: 30%;
+    height: 100%;
+}
+
+.pedreira .box img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 250px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.pedreira .box p{
+    height: 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem !important;
+}
+
+.pedreira .box img:hover{
+    transform: scale(1.1);
+}
+
+.maps{
+    height: 350px;
+}
+
+.maps iframe{
+    width: 100%;
+    height: 100%;
 }
 
 .fale-conosco{
@@ -408,7 +462,7 @@ form .btn{
 .galeria{
     width: 200px;
     height: 200px;
-    background-color: palegoldenrod;
+    /background-color: palegoldenrod;
 }
 
 @media only screen and (max-width: 1000px){
@@ -496,7 +550,7 @@ form .btn{
     .infos a{
         width: 100% !Important;
     }
-    
+
     .infos a{
         width: 100% !important;
     }
@@ -542,6 +596,32 @@ form .btn{
         width: 84%;
         margin-bottom: 0 !important;
         padding: 10px !important; 
+    }
+}
+
+@media only screen and (max-width: 575px){
+    
+    .pedreira{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    
+    .pedreira h1{
+        margin-bottom: 0;
+        height: 30px;
+    }
+
+    .pedreira .box{
+        width: 54%;
+        height: 200px;
+    }
+
+    .pedreira .box img{
+        height: 150px;
+    }
+    
+    .pedreira .box p{
+        font-size: 1.3rem !important;
     }
 }
 
@@ -656,6 +736,18 @@ form .btn{
         height: 90% !important;
     }
 
+    .pedreira{
+        height: 300px;
+    }
+    
+    .pedreira h1{
+        margin: 0;
+    }
+
+    .pedreira .box img{
+        height: 150px;
+    }
+
     .fale-conosco{
         height: 200px;
     }
@@ -749,6 +841,14 @@ form .btn{
         height: 8px;
     }
 
+    .pedreira{
+        height: 370px;
+    }
+
+    .pedreira .box img{
+        height: 200px;
+    }
+
     .fale-conosco{
         height: 250px;
     }
@@ -781,10 +881,10 @@ form .btn{
         font-size: 1.1rem !important;
     }
 }
-@media only screen and (min-width: 1001px) and (max-width: 1020px)
+@media only screen and (min-width: 950px) and (max-width: 1040px)
 {
     .navbar .nav-item{
-        font-size: 1.2rem !important;
+        font-size: 1.0rem !important;
     }
 }
 

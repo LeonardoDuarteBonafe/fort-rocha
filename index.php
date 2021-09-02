@@ -24,25 +24,25 @@
     </head>
     <body>
         <?php 
-            include 'php/headernav.html';
+        include 'php/headernav.html';
         ?>
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <!--<ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>-->
+<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+</ol>-->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="Imagens/Carousel-Top/banner1.webp" class="d-block w-100" alt="...">
                 </div>
                 <!--<div class="carousel-item">
-                    <img src="Imagens/Carousel-Top/banner2.webp" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="Imagens/Carousel-Top/banner3.webp" class="d-block w-100" alt="...">
-                </div>-->
+<img src="Imagens/Carousel-Top/banner2.webp" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+<img src="Imagens/Carousel-Top/banner3.webp" class="d-block w-100" alt="...">
+</div>-->
             </div>
         </div>
 
@@ -77,9 +77,9 @@
             </div>
         </div>
         <?php
-            include 'php/produtos.html';
+        include 'php/produtos.html';
         ?>
-        <div class="infos">
+        <!--<div class="infos">
             <div class="row pedreira">
                 <div class="col-12 col-sm-5 align-self-center texts">
                     <h1>Pedreira</h1>
@@ -88,16 +88,31 @@
                 </div>
                 <div class="col-12 col-sm-7 d-flex justify-content-end">
                     <a href="Imagens/Infos/image-pedreira-grande.webp" data-lightbox="mygalleryPedreira" data-title="Indústria"><img src="Imagens/Infos/image-pedreira.webp"></a>
-                    <!--<img src="Imagens/Infos/image-pedreira.webp">-->
                 </div>
                 <div class="col-12 align-self-center button-after">
                     <button>Saiba mais...</button>
                 </div>
             </div>
+        </div>-->
+        <div class="pedreira">
+            <h1>Pedreira</h1>
+            <div class="box">
+                <a href="Imagens/Pedreira/imagem1.webp" data-lightbox="mygalleryPedreira" data-title="Crystal"><img src="Imagens/Pedreira/imagem1.webp"></a>
+                <p>Crystal</p>
+            </div>
+            <div class="box">
+                <a href="Imagens/Pedreira/imagem2.webp" data-lightbox="mygalleryPedreira" data-title="Super White"><img src="Imagens/Pedreira/imagem2.webp"></a>
+                <p>Super White</p>
+            </div>
+            <div class="box">
+                <a href="Imagens/Pedreira/imagem3.webp" data-lightbox="mygalleryPedreira" data-title="Lançamento"><img src="Imagens/Pedreira/imagem3.webp"></a>
+                <p>Lançamento</p>
+            </div>
         </div>
         <?php
-            include 'php/faleconosco.html';
-            include 'php/footer.html'
+        include 'php/maps.html';
+        include 'php/faleconosco.html';
+        include 'php/footer.html'
         ?>
     </body>
 </html>

@@ -23,6 +23,7 @@
             <?php 
             include 'php/headernav.html';
             include 'php/produtos.html';
+            include 'php/maps.html';
             include 'php/faleconosco.html';
             include 'php/footer.html';
             ?>
