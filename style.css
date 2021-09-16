@@ -233,7 +233,7 @@ header ul li{
 }
 
 .nossos-produtos img:hover{
-    transform: scale(1.05);
+    transform: scale(1.0);
     transition: 1s;
 }
 
@@ -267,7 +267,7 @@ header ul li{
     margin: 0;
     margin-bottom: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     height: 420px;
     flex-wrap: wrap;
     background-color: #F1F2F2;
@@ -282,6 +282,7 @@ header ul li{
 
 .pedreira .box{
     width: 30%;
+    margin: 0 50px;
     height: 100%;
 }
 
@@ -304,7 +305,7 @@ header ul li{
 }
 
 .pedreira .box img:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .maps{

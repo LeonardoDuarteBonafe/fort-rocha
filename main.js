@@ -90,6 +90,7 @@ window.addEventListener("DOMContentLoaded", function () {
         $('.carousel-inner').children("div").eq(0).children("img").attr("src", "Imagens/Carousel-Top/banner1-en.webp");
         $('.carousel-inner').children("div").eq(1).children("img").attr("src", "Imagens/Carousel-Top/banner2-en.webp");
         $('.carousel-inner').children("div").eq(2).children("img").attr("src", "Imagens/Carousel-Top/banner3-en.webp");
+        $('.carousel-inner').children("div").eq(3).children("img").attr("src", "Imagens/Carousel-Top/banner4-en.webp");
 
         //index infos
         $('.infos .fort-rocha').children("div").children("h1").text(language.eng.infos.fort_rocha.title);

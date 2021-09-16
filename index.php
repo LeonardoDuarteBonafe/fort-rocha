@@ -32,6 +32,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -42,6 +43,9 @@
                 </div>
                 <div class="carousel-item">
                     <img src="Imagens/Carousel-Top/banner3.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/Carousel-Top/banner4.webp" class="d-block w-100" alt="...">
                 </div>
             </div>
         </div>
@@ -96,10 +100,10 @@
 </div>-->
         <div class="pedreira">
             <h1>Pedreira</h1>
-            <div class="box">
+            <!--<div class="box">
                 <a href="Imagens/Pedreira/imagem1.webp" data-lightbox="mygalleryPedreira" data-title="Crystal"><img src="Imagens/Pedreira/imagem1.webp"></a>
                 <p>Crystal</p>
-            </div>
+            </div>-->
             <div class="box">
                 <a href="Imagens/Pedreira/imagem2.webp" data-lightbox="mygalleryPedreira" data-title="Super White"><img src="Imagens/Pedreira/imagem2.webp"></a>
                 <p>Super White</p>
