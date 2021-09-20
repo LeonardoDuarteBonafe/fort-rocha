@@ -84,11 +84,11 @@
         <div class="pedreira">
             <h1>Pedreira</h1>
             <div class="box">
-                <a href="Imagens/Pedreira/imagem2.webp" data-lightbox="mygalleryPedreira" data-title="Super White"><img src="Imagens/Pedreira/imagem2.webp"></a>
+                <a href="Imagens/Pedreira/imagem1.webp" data-lightbox="mygalleryPedreira" data-title="Super White"><img src="Imagens/Pedreira/imagem2.webp"></a>
                 <p>Crystal</p>
             </div>
             <div class="box">
-                <a href="Imagens/Pedreira/imagem3.webp" data-lightbox="mygalleryPedreira" data-title="Lançamento"><img src="Imagens/Pedreira/imagem3.webp"></a>
+                <a href="Imagens/Pedreira/imagem2.webp" data-lightbox="mygalleryPedreira" data-title="Lançamento"><img src="Imagens/Pedreira/imagem3.webp"></a>
                 <p>Lançamento</p>
             </div>
         </div>
