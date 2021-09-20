@@ -58,7 +58,6 @@
                     <button class="button-before">Saiba mais...</button>
                 </div>
                 <div class="col-12 col-sm-7 d-flex justify-content-end">
-                    <!--<img src="Imagens/Infos/image-sobre-fort-rocha.webp">-->
                     <a href="Imagens/Infos/image-sobre-fort-rocha.webp" data-lightbox="mygallerySobreFort" data-title="Fort Rocha"><img src="Imagens/Infos/image-sobre-fort-rocha.webp"></a>
                 </div>
                 <div class="col-12 align-self-center button-after">
@@ -73,7 +72,6 @@
                 </div>
                 <div class="col-12 col-sm-7 d-flex justify-content-end">
                     <a href="Imagens/Infos/image-industria.webp" data-lightbox="mygalleryIndustria" data-title="Indústria"><img src="Imagens/Infos/image-industria.webp"></a>
-                    <!--<img src="Imagens/Infos/image-industria.webp">-->
                 </div>
                 <div class="col-12 align-self-center button-after">
                     <button>Saiba mais...</button>
@@ -83,27 +81,8 @@
         <?php
         include 'php/produtos.html';
         ?>
-        <!--<div class="infos">
-<div class="row pedreira">
-<div class="col-12 col-sm-5 align-self-center texts">
-<h1>Pedreira</h1>
-<p class="text-justify" >Maecenas non dolor tincidunt, iaculis diam et, fringilla quam. Aliquam erat volutpat. In vitae ligula ornare, auctor massa sed, tempus orci. Ut ullamcorper ex sit amet nisl congue, eu vulputate sapien faucibus.</p>
-<button class="button-before">Saiba mais...</button>
-</div>
-<div class="col-12 col-sm-7 d-flex justify-content-end">
-<a href="Imagens/Infos/image-pedreira-grande.webp" data-lightbox="mygalleryPedreira" data-title="Indústria"><img src="Imagens/Infos/image-pedreira.webp"></a>
-</div>
-<div class="col-12 align-self-center button-after">
-<button>Saiba mais...</button>
-</div>
-</div>
-</div>-->
         <div class="pedreira">
             <h1>Pedreira</h1>
-            <!--<div class="box">
-                <a href="Imagens/Pedreira/imagem1.webp" data-lightbox="mygalleryPedreira" data-title="Crystal"><img src="Imagens/Pedreira/imagem1.webp"></a>
-                <p>Crystal</p>
-            </div>-->
             <div class="box">
                 <a href="Imagens/Pedreira/imagem2.webp" data-lightbox="mygalleryPedreira" data-title="Super White"><img src="Imagens/Pedreira/imagem2.webp"></a>
                 <p>Crystal</p>

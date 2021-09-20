@@ -39,16 +39,6 @@ window.addEventListener("DOMContentLoaded", function () {
             products: {
                 title: "Know our products",
                 info: "The most various surfaces for your project, each carrying their own identity.",
-                /*white_alvorada: "White Alvorada",
-                super_white: "Super White",
-                white_fortress: "White Fortress",
-                crystal_sunshine: "Crystal Sunshine",
-                dolomythic_marble: "Dolomythic Marble",
-                crystal: "Crystal",
-                blue_calcite: "Blue Calcite",
-                maracanã_yellow: "Maracanã Yellow",
-                flowered_black: "Flowered Black",
-                crystal_streak: "Crystal Streak",*/
             },
             contact_us: {
                 title: "Contact Us",
@@ -103,26 +93,6 @@ window.addEventListener("DOMContentLoaded", function () {
         //nossos produtos
         $('.nossos-produtos').children("h1").text(language.eng.products.title);
         $('.nossos-produtos').children("p").text(language.eng.products.info);
-        /*$('.nossos-produtos').children("div").children("div").eq(0).children("p").text(language.eng.products.white_alvorada);
-        //$('.nossos-produtos').children("div").children("div").eq(0).children("a").eq(0).attr('data-title', language.eng.products.white_alvorada);
-        $('.nossos-produtos').children("div").children("div").eq(1).children("p").text(language.eng.products.super_white);
-        //$('.nossos-produtos').children("div").children("div").eq(1).children("a").eq(0).attr('data-title', language.eng.products.super_white);
-        $('.nossos-produtos').children("div").children("div").eq(2).children("p").text(language.eng.products.white_fortress);
-        //$('.nossos-produtos').children("div").children("div").eq(2).children("a").eq(0).attr('data-title', language.eng.products.white_fortress);
-        $('.nossos-produtos').children("div").children("div").eq(3).children("p").text(language.eng.products.crystal_sunshine);
-        //$('.nossos-produtos').children("div").children("div").eq(3).children("a").eq(0).attr('data-title', language.eng.products.crystal_sunshine);
-        $('.nossos-produtos').children("div").children("div").eq(4).children("p").text(language.eng.products.dolomythic_marble);
-        //$('.nossos-produtos').children("div").children("div").eq(4).children("a").eq(0).attr('data-title', language.eng.products.dolomythic_marble);
-        $('.nossos-produtos').children("div").children("div").eq(5).children("p").text(language.eng.products.crystal);
-        //$('.nossos-produtos').children("div").children("div").eq(5).children("a").eq(0).attr('data-title', language.eng.products.crystal);
-        $('.nossos-produtos').children("div").children("div").eq(6).children("p").text(language.eng.products.blue_calcite);
-        //$('.nossos-produtos').children("div").children("div").eq(6).children("a").eq(0).attr('data-title', language.eng.products.blue_calcite);
-        $('.nossos-produtos').children("div").children("div").eq(7).children("p").text(language.eng.products.maracanã_yellow);
-        //$('.nossos-produtos').children("div").children("div").eq(7).children("a").eq(0).attr('data-title', language.eng.products.maracanã_yellow);
-        $('.nossos-produtos').children("div").children("div").eq(8).children("p").text(language.eng.products.flowered_black);
-        //$('.nossos-produtos').children("div").children("div").eq(8).children("a").eq(0).attr('data-title', language.eng.products.flowered_black);
-        $('.nossos-produtos').children("div").children("div").eq(9).children("p").text(language.eng.products.crystal_streak);
-        //$('.nossos-produtos').children("div").children("div").eq(9).children("a").eq(0).attr('data-title', language.eng.products.crystal_streak);*/
 
         //sobre fort rocha
         $('#page-fort-rocha').children("div").children("h1").text(language.eng.infos.fort_rocha.title);
@@ -132,7 +102,6 @@ window.addEventListener("DOMContentLoaded", function () {
         $('#page-fort-rocha').children("div").children("p").eq(3).text(language.eng.infos.fort_rocha.page_info.text_4);
         $('#page-fort-rocha').children("div").children("p").eq(4).text(language.eng.infos.fort_rocha.page_info.text_5);
         $('#page-fort-rocha').children("div").children("p").eq(5).text(language.eng.infos.fort_rocha.page_info.text_6);
-
 
         //sobre industria
         $('#page-industria').children("div").children("h1").text(language.eng.infos.industry.title);
@@ -177,8 +146,7 @@ window.addEventListener("DOMContentLoaded", function () {
     var menuBarHeight = $('#header').height();
 
     var buttonFortRocha = document.querySelectorAll('.fort-rocha button');
-    var buttonIndustria = document.querySelectorAll('.industria button');/*
-    var buttonPedreira = document.querySelectorAll('.pedreira button');*/
+    var buttonIndustria = document.querySelectorAll('.industria button');
 
     buttonFortRocha.forEach(button => button.addEventListener('click', function(){
         window.location.href = "sobre-fort-rocha.php";
@@ -187,10 +155,6 @@ window.addEventListener("DOMContentLoaded", function () {
     buttonIndustria.forEach(button => button.addEventListener('click', function(){
         window.location.href = "industria.php";
     }));
-    
-    /*buttonPedreira.forEach(button => button.addEventListener('click', function(){
-        window.location.href = "pedreira.php";
-    }));*/
 
     if(location.href.split('/').pop()  === "fale-conosco.php"){
         const buttonSendForm = document.querySelector('.submitForm');
@@ -204,15 +168,6 @@ window.addEventListener("DOMContentLoaded", function () {
     })
 
     $('#header').addClass('fixed');
-
-    /*$(window).scroll(function(){
-        if($(this).scrollTop() > (menuBarHeight)) {
-            $('#header').addClass('fixed');
-        }
-        else{
-            $('#header').removeClass('fixed');
-        }
-    });*/
 
     function getFormInfos(){
         var emailMessage = "";

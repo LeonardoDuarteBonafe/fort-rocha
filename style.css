@@ -183,7 +183,6 @@ header ul li{
 
 .infos a{
     width: 80%;
-    /background-color: aqua;
     overflow: hidden;
 }
 
@@ -465,7 +464,6 @@ form .btn{
 .galeria{
     width: 200px;
     height: 200px;
-    /background-color: palegoldenrod;
 }
 
 @media only screen and (max-width: 1000px){
